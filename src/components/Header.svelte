@@ -22,7 +22,7 @@
   <div class="status-bar">
     <div class="status-indicator">
       <span class:dot-ok={isConnected} class:dot-bad={!isConnected} class="status-dot"></span>
-      <span>{isConnected ? 'LIVE' : 'ERROR'}</span>
+      <span>{isConnected ? 'LIVE' : 'LOADING...'}</span>
     </div>
     <span class="divider">|</span>
     <span>{utcClock}</span>
